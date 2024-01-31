@@ -34,7 +34,7 @@ module.exports = {
         if (player && interaction.member.voice.channelId !== interaction.guild.members.me.voice.channelId) {
             const embed = new EmbedBuilder()
                 .setColor(client.color)
-                .setDescription(`\<:icon_cross:1200797307805892651>\ | You must be on the same voice channel as mine to use this command.`)
+                .setDescription(`\<a:wrong_kastro:1191703733457911820>\ | You must be on the same voice channel as mine to use this command.`)
                 .setTimestamp();
 
             return interaction.reply({ embeds: [embed], ephemeral: true });
@@ -78,7 +78,7 @@ module.exports = {
 
             const embed = new EmbedBuilder()
                 .setColor(client.color)
-                .setDescription(`<:Check:1200809259928129547> | **[${playlistInfo.name}](${song})** • \`${tracks.length}\` tracks • ${track.info.requester}`);
+                .setDescription(`<a:tick_kastro:1191703538485702727> | **[${playlistInfo.name}](${song})** • \`${tracks.length}\` tracks • ${track.info.requester}`);
 
             await interaction.editReply({ embeds: [embed] });
             if (!player.isPlaying && !player.isPaused) return player.play();
@@ -91,7 +91,7 @@ module.exports = {
             const embed = new EmbedBuilder()
                 .setColor(client.color)
                 .setDescription(
-                    `<:Check:1200809259928129547> | **[${track.info.title ? track.info.title : "Unknown"}](${track.info.uri})** • \`${
+                    `<<a:tick_kastro:1191703538485702727> | **[${track.info.title ? track.info.title : "Unknown"}](${track.info.uri})** • \`${
                         track.info.isStream ? "LIVE" : formatDuration(track.info.length)
                     }\` • ${track.info.requester}`,
                 );
