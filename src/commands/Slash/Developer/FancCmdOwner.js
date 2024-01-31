@@ -49,7 +49,7 @@ module.exports = {
         \`\`\`
       `)
       .setColor(client.color)
-      .setURL("https://discord.gg/7MEHnM6T87"); // Replace with your actual support server URL
+      .setURL("https://discord.gg/GPzYFx7zfe"); // Replace with your actual support server URL
 
     // Send the edited reply with the embed
     return interaction.editReply({ embeds: [embed] });
