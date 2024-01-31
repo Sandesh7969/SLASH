@@ -42,7 +42,7 @@ module.exports = {
             })
             .setColor(client.color)
             .setDescription(
-                `👋🏻 **${interaction.member}**, Myself **${client.user}** \n\n<:F_arrow:1200816267343446106> **${client.user.username}**\n**An Advanced Discord MusicBot with User-Friendly Interface. I Promise you that I will try my Best to Give you the beat of Music Clearly.** \n\n<:stats:1200816936779518093> **__Category Fancy__**\n<:info:1200796269887635466>  **Information**\n<:music:1200817443623411803>  **Music**\n<:Premium:1200817621503840276> **Premium**\n<:developer:1200817682971373783>  **Developer**\n<:filters:1200817771118862547>  **Filters**\n\n<:ping:1200817860432371852> **__Status__:  ${client.user.username}**\n<:servers:1200817913859416155>  Servers: **${client.guilds.cache.size}**\n<:ping:1200817860432371852>  Ping: **${Math.round(client.ws.ping)}ms**\n`
+                `👋🏻 **${interaction.member}**, Myself **${client.user}** \n\n<:F_arrow:1202298696620834856> **${client.user.username}**\n**An Advanced Discord MusicBot with User-Friendly Interface. I Promise you that I will try my Best to Give you the beat of Music Clearly.** \n\n<:stats:1202391860140572773> **__Category Fancy__**\n<:info:1202392774788526100>  **Information**\n<:music:1202393441548505128>  **Music**\n<:Premium:1202299422705463398> **Premium**\n<:developer:1202299625277759488>  **Developer**\n<:filters:1202394103426457682> **Filters**\n\n<:ping:1202394451075534908> **__Status__:  ${client.user.username}**\n<:servers:1202394899253842120>  Servers: **${client.guilds.cache.size}**\n<:ping:1202394451075534908>  Ping: **${Math.round(client.ws.ping)}ms**\n`
             )
             .setFooter({
                 text: `Made with 💖 by Supreme`,
