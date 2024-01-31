@@ -38,12 +38,12 @@ module.exports = {
     const embed = new EmbedBuilder()
       .setTitle("Owner Commands")
       .setDescription(`
-        <:Premium:1200817621503840276> **Premium Commands**
+        <:Premium:1202299422705463398> **Premium Commands**
         \`\`\`yaml
         ${premiumCommands}
         \`\`\`
 
-        <:developer:1200817682971373783> **Developer Commands**
+        <:developer:1202299625277759488> **Developer Commands**
         \`\`\`yaml
         ${developerCommands}
         \`\`\`
