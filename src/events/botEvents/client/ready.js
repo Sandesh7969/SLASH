@@ -36,7 +36,7 @@ module.exports.run = async (client) => {
             },
             { 
               type: ActivityType.Playing, 
-              name: "TEC"
+              name: "Music"
             }
         ];
 
