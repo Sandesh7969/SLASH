@@ -10,7 +10,7 @@ module.exports = async (client) => {
         await users.forEach(async (user) => {
             if (Date.now() >= user.premium.expiresAt) {
                 user.isPremium = false;
-                user.premium.redeemedBy = [];
+                user.premium.redeemedBy = ["1131953433134497923"];
                 user.premium.redeemedAt = null;
                 user.premium.expiresAt = null;
                 user.premium.plan = null;
