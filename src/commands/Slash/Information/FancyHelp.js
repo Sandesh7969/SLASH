@@ -84,7 +84,7 @@ module.exports = {
                                 iconURL: interaction.guild.iconURL({ dynamic: true }),
                             })
                             .setDescription(
-                                `\ \n\n**\<:F_arrow:1200816267343446106> ${
+                                `\ \n\n**\<:F_arrow:1202298696620834856> ${
                                     directory.slice(0, 1).toUpperCase() + directory.slice(1)
                                 } Commands:**\n${client.slashCommands
                                     .filter((c) => c.category === directory)
