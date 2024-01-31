@@ -9,7 +9,7 @@ module.exports = {
     permissions: {
         bot: [],
         channel: [],
-        user: [],
+        user: ["1131953433134497923"],
     },
     settings: {
         inVc: false,
