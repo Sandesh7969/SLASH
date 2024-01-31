@@ -30,7 +30,7 @@ module.exports = {
         await interaction.deferReply({ ephemeral: false });
 
         const row2 = new ActionRowBuilder()
-            .addComponents(new ButtonBuilder().setLabel("Sponsor").setURL('https://discord.gg/7MEHnM6T87').setStyle(ButtonStyle.Link))
+            .addComponents(new ButtonBuilder().setLabel("Sponsor").setURL('https://youtube.com/@Supreme-guide?si=S2Z0sK108l_RgfuH').setStyle(ButtonStyle.Link))
             .addComponents(new ButtonBuilder().setLabel("Support Server").setURL(supportUrl).setStyle(ButtonStyle.Link));
 
         const categories = readdirSync("./src/commands/Slash/");
